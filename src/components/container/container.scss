@@ -1,0 +1,24 @@
+.container{
+    width: 70%;
+    min-width: 70vh;
+    height: 75vh;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #132F11;
+    box-shadow: 4px 5px 14px #415F14;
+    border-radius: 10px;
+    
+    >*{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #0FED00;
+        width: 90%;
+        text-align: center;
+    }
+
+}
